@@ -2,4 +2,4 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 
-console.log("env", "<%= ENV['FOO'] %>")
+console.log("env", "<%= ENV.fetch('FOO') %>")
